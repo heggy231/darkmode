@@ -8,6 +8,7 @@ const resetButton = document.getElementById("ResetButton");
 
 myButton.addEventListener('click', () => {
   myHeading.style.color = myTextInput.value;
+  myTextInput.value = '';
 });
 
 resetButton.addEventListener('click', () => {
